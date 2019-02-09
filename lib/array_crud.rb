@@ -4,11 +4,11 @@ def create_an_empty_array
 end
 
 def create_an_array
-  
+  ["Doctor", "Rose", "Jack", "Mickey"]
 end
 
 def add_element_to_end_of_array(array, element)
-  
+  create_an_array<< "Donna"
 end
 
 def add_element_to_start_of_array(array, element)
